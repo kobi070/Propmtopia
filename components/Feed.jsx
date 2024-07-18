@@ -20,11 +20,20 @@ const PromptCardList = ({ data, handleTagClick }) => {
   )
 };
 
+const handleTagClick = async () => {
+  // TODO: Handle tag click by sending the user to all the tag reletad posts
+};
+const handleProfileClick = async () => {
+  // TODO: Handle profile click by sending the user to another user profile
+};
+
 const Feed = () => {
   const [searchText, setSearchText] = useState("");
   const [posts, setPosts] = useState([]);
 
-  const handleSearchChange = (e) => { }; // TODO: implement
+  const handleSearchChange = (e) => { 
+    // TODO: implement search engine for tags or usernames
+  }; 
 
   useEffect(() => {
     const fetchPost = async () => {
@@ -51,7 +60,7 @@ const Feed = () => {
 
       <PromptCardList
         data={posts}
-        handleTagClick={() => { }}
+        handleTagClick={handleTagClick}
       />
     </section>
   )
