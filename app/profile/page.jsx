@@ -9,9 +9,9 @@ import ProfileComponent from "@components/Profile";
 const Profile = () => {
     const { data: session } = useSession();
 
-    const [posts, setPosts] = useState("");
+    const [posts, setPosts] = useState([]);
     const handleEdit = () => {
-
+        
     };
     const handleDelete = async () => {
 
