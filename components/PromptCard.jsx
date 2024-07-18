@@ -67,7 +67,7 @@ const PromptCard = ({ post,
         onClick={
           () => handleClick && handleTagCllick(post.tag)
         }>
-        {post.tag}
+        #{post.tag}
       </p>
 
       {
