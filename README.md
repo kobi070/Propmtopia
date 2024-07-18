@@ -18,7 +18,7 @@ To get started, ensure you have the following:
 - Node.js installed
 - A Google account for authentication
 
-### Installation
+## Installation
 
 1. Clone the repository:
 
@@ -27,21 +27,20 @@ To get started, ensure you have the following:
    ```
 2. Navigate to the project directory:
 
-  ```bash
-cd Propmtopia
-```
-## Install dependencies:
+     ```bash
+   cd Propmtopia
+   ```
+   Install dependencies:
 
-  ```bash
-npm install
-```
+     ```bash
+   npm install
+   ```
 3. Create a .env file in the root directory and add your Google OAuth credentials:
 
-```bash
-
-GOOGLE_CLIENT_ID=your-google-client-id
-GOOGLE_CLIENT_SECRET=your-google-client-secret
-```
+      ```bash
+      GOOGLE_CLIENT_ID=your-google-client-id
+      GOOGLE_CLIENT_SECRET=your-google-client-secret
+      ```
 
 ### Add .env to .gitignore to prevent it from being tracked:
 ```bash
