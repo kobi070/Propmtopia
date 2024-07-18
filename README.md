@@ -1,5 +1,3 @@
-markdown
-
 # Propmtopia
 
 Welcome to Propmtopia! A platform to share AI prompts. Get started quickly by logging in with your Google account and start sharing your creative prompts with the community.
